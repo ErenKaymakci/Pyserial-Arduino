@@ -33,9 +33,9 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
  ## 📥 Veri okuma 
  Bazı metodlarla veriyi okuyabiliyoruz. Ben `read()` , `readline()` dan bahsedeceğim. 
  
- `read()` metodu veriyi tane tane okumamızı sağlar. `size` parametresi alır default olarak `size=1` dir. Size ı değiştirerek kaç byte okumak istediğinizi ayarlayabilirsiniz. Örneği için [bu] dosyayı arduinonuza yükleyin. Python da ise [bu] dosyayı çalıştırın. 
+ `read()` metodu veriyi tane tane okumamızı sağlar. `size` parametresi alır default olarak `size=1` dir. Size ı değiştirerek kaç byte okumak istediğinizi ayarlayabilirsiniz. Örneği için [bu](/getting_data/read.ino) dosyayı arduinonuza yükleyin. Python da ise [bu](/getting_data/read.py) dosyayı çalıştırın. 
  
- `readline()` metodu veriyi satır satır almamızı sağlar. Uygulaması için [bu] dosyayı arduino ya yükleyin. Pythonda [bu] dosyayı çalıştırın.
+ `readline()` metodu veriyi satır satır almamızı sağlar. Uygulaması için [bu](/getting_data/readline.ino) dosyayı arduino ya yükleyin. Pythonda [bu](/getting_data/readline.py) dosyayı çalıştırın.
  
  ## 📤 Veri gönderme 
  Veri yazarken yaygın yöntem `write()` dır. Metodu kullanırken gönderilecek veriyi byte a çevirmeliyiz. Önemli kısım str ve int değişken tiplerindeki hız farkı. Bu farkı [servo kontrolü](#yavaşla-hızlının-görsel-farkı) kısmında görebilirsiniz.
@@ -60,7 +60,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
 
 ## Python inputu ile led yakma
 
-Arduino şeması:
+**Arduino şeması:**
 
 ![led on-off](/img/led_sema.png)
 
@@ -70,7 +70,7 @@ Arduino şeması:
 
 Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon yapıyor. Bu yüzden py kodu çalıştırdığınızda bir süre sensörü oynatmayın. 
 
-Arduino şeması:
+**Arduino şeması:**
 
 ![IMU](/img/imu_sema.png)
 
