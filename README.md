@@ -58,7 +58,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
 
 # 📖 Uygulama Örnekleri
 
-## Python inputu ile led yakma
+## 📌 Python inputu ile led yakma
 
 **🗺️ Arduino şeması:**
 
@@ -66,7 +66,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
 
 [ino](/examples/led_on-off/led_on-off.ino) dosyasını yükleyin ve [py](/examples/led_on-off/led_on-off.py) dosyasını çalıştırın.  
 
-## IMU sensör verilerini alma(MPU6050)
+## 📌 IMU sensör verilerini alma(MPU6050)
 
 Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon yapıyor. Bu yüzden py kodu çalıştırdığınızda bir süre sensörü oynatmayın. 
 
@@ -78,7 +78,7 @@ Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon
 
 
 
-## Servo motor kontrolü
+## 📌 Servo motor kontrolü
 
 **🗺️ Arduino şeması(Hızlı/yavaş ikisinin şeması aynı):**
 
