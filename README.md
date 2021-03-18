@@ -23,7 +23,7 @@ Port açmak için `Serial.serial()` sınıfını kullanıyoruz.
  
 Kodumuzda; `port = Serial.serial(port='com6',baudrate=9600,timeout=2)` satırıyla portumuzu açabiliriz.
 
-Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebilirsiniz. `baudrate` parametresi arduino ide sinde setup içinde belirlediğiniz `Serial.begin(baudrate)` ile aynı olmalıdır. `timeout` parametresi arduinodan gelecek veriyi okurken beklenebilecek sınırı temsil eder. 2 verdiğimizde 2 s veri bekler,döner ve veri gelmezse sonsuz döngüye girmemiş olur. Daha fazla parametre için [buraya](https://pyserial.readthedocs.io/en/latest/pyserial_api.html) bakabilirsiniz. 
+Ardiuno nuzu bağladığınız port ismini [buradan](/img/port_name.png) öğrenebilirsiniz. `baudrate` parametresi arduino ide sinde setup içinde belirlediğiniz `Serial.begin(baudrate)` ile aynı olmalıdır. `timeout` parametresi arduinodan gelecek veriyi okurken beklenebilecek sınırı temsil eder. 2 verdiğimizde 2 s veri bekler,döner ve veri gelmezse sonsuz döngüye girmemiş olur. Daha fazla parametre için [buraya](https://pyserial.readthedocs.io/en/latest/pyserial_api.html) bakabilirsiniz. 
 
  Portun açık olup olmadığını kontrol etmek için `isOpen()` metodunu kullanabiliriz.
  
