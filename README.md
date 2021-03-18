@@ -60,7 +60,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
 
 ## Python inputu ile led yakma
 
-**Arduino şeması:**
+**🗺️ Arduino şeması:**
 
 ![led on-off](/img/led_sema.png)
 
@@ -70,7 +70,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
 
 Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon yapıyor. Bu yüzden py kodu çalıştırdığınızda bir süre sensörü oynatmayın. 
 
-**Arduino şeması:**
+**🗺️ Arduino şeması:**
 
 ![IMU](/img/imu_sema.png)
 
@@ -80,7 +80,7 @@ Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon
 
 ## Servo motor kontrolü
 
-Arduino şeması(Hızlı/yavaş ikisinin şeması aynı):
+**🗺️ Arduino şeması(Hızlı/yavaş ikisinin şeması aynı):**
 
 ![servo](/img/servo_sema.png)
 
