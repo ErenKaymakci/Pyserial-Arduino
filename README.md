@@ -27,7 +27,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](/img/port_name.png) öğren
 
  Portun açık olup olmadığını kontrol etmek için `isOpen()` metodunu kullanabiliriz.
  
- [Port açma ve kapama komutu](#kütüphanedeki-bazı-metodlar)
+ [Port açma ve kapama komutu](#kütüphanedeki-bazı-özellik-ve-metodlar)
  
  
  ## 📥 Veri okuma 
@@ -87,7 +87,7 @@ Yüklemek ve çalıştırmak için [ino](/examples/getting_imu_values/get_imu_da
 Yüklemek ve çalıştırmak için [ino](/examples/servo_control/servo_control.ino) ve [python](/examples/servo_control/servo_control.py) dosyası
 
 ### Hızlı motor kontrolü
-Arduino şeması yavaşla aynı. [Python](/examples/servo_control_faster/servo_control_faster.py) ve [ino](/examples/servo_control_faster/servo_control_faster.ino) dosyaları
+Arduino şeması yavaşla aynı. [Python](/examples/servo_control-faster/servo_control-faster.py) ve [ino](/examples/servo_control-faster/servo_control-faster.ino) dosyaları
 
 ### Yavaşla Hızlının görsel farkı
 
