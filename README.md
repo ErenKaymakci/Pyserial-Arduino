@@ -40,7 +40,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](port_name.png) öğrenebili
  ## 📤 Veri gönderme 
  Veri yazarken yaygın yöntem `write()` dır. Metodu kullanırken gönderilecek veriyi byte a çevirmeliyiz. Önemli kısım str ve int değişken tiplerindeki hız farkı. Bu farkı [servo kontrolü](#yavaşla-hızlının-görsel-farkı) kısmında görebilirsiniz.
  
- ## Kütüphanedeki bazı metodlar
+ ## Kütüphanedeki bazı özellik ve metodlar  
  
 - `name` Port ismini verir. 
  
