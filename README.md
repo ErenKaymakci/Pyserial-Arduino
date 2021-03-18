@@ -6,10 +6,10 @@
 
 ## 📑 İçerik
 - [Pyserial'a Başlangıç ve fonksiyonlar](#pyseriala-baslangıc-ve-fonksiyonlar)
-- [Uygulama Örnekleri](#uygulama-örnekleri)
-  * [Python inputu ile led yakma](#python-inputu-ile-led-yakma)
-  * [IMU sensör verilerini alma](#imu-sensör-verilerini-alma)
-  * [Servo motor kontrolü(Yavaş/Hızlı)](#servo-motor-kontrolü)
+- [Uygulama Örnekleri](#-uygulama-örnekleri)
+  * [Python inputu ile led yakma](#-python-inputu-ile-led-yakma)
+  * [IMU sensör verilerini alma](#-imu-sensör-verilerini-alma)
+  * [Servo motor kontrolü(Yavaş/Hızlı)](#-servo-motor-kontrolü)
   
   
 - [Yararlandığım kaynaklar](#yararlandığım-kaynaklar)
