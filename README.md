@@ -87,7 +87,7 @@ Yüklemek ve çalıştırmak için [ino](/examples/getting_imu_values/get_imu_da
 Yüklemek ve çalıştırmak için [ino](/examples/servo_control/servo_control.ino) ve [python](/examples/servo_control/servo_control.py) dosyası
 
 ### Hızlı motor kontrolü
-Arduino şeması yavaşla aynı. [Python](/examples/servo_control-faster/servo_control-faster.py) ve [ino](/examples/servo_control-faster/servo_control-faster.ino) dosyaları
+Arduino şeması yavaşla aynı. [Python](/examples/servo_control-faster/servo_control_faster.py) ve [ino](/examples/servo_control-faster/servo_control_faster.ino) dosyaları
 
 ### Yavaşla Hızlının görsel farkı
 
