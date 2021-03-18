@@ -27,7 +27,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](/img/port_name.png) öğren
 
  Portun açık olup olmadığını kontrol etmek için `isOpen()` metodunu kullanabiliriz.
  
- [port açma ve kapama komutu](#kütüphanedeki-bazı-metodlar)
+ [Port açma ve kapama komutu](#kütüphanedeki-bazı-metodlar)
  
  
  ## 📥 Veri okuma 
@@ -64,7 +64,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](/img/port_name.png) öğren
 
 ![led on-off](/img/led_sema.png)
 
-[ino](/examples/led_on-off/led_on-off.ino) dosyasını yükleyin ve [py](/examples/led_on-off/led_on-off.py) dosyasını çalıştırın.  
+[Ino](/examples/led_on-off/led_on-off.ino) dosyasını yükleyin ve [py](/examples/led_on-off/led_on-off.py) dosyasını çalıştırın.  
 
 ## 📌 IMU sensör verilerini alma(MPU6050)
 
@@ -74,7 +74,7 @@ Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon
 
 ![IMU](/img/imu_sema.png)
 
-[ino](/examples/getting_imu_values/get_imu_data.ino) ve [py](/examples/getting_imu_values/get_imu_data.py) dosyası
+Yüklemek ve çalıştırmak için [ino](/examples/getting_imu_values/get_imu_data.ino) ve [py](/examples/getting_imu_values/get_imu_data.py) dosyası
 
 
 
