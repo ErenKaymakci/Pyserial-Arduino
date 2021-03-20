@@ -11,8 +11,7 @@ def spin():
         arduinoData.write(derece.to_bytes(2,'big'))
         time.sleep(0.01)
         print(derece.to_bytes(2,'big')) 
-        comes = arduinoData.readline()
-        print(comes)
+
     else:
         return
 
