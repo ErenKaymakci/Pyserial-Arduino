@@ -1,4 +1,6 @@
 # Python Arduino Seri Haberleşmesi
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ErenKaymakci/Pyserial-Arduino/blob/main/README.en.md)
+[![tr](https://img.shields.io/badge/lang-tr-green.svg)](https://github.com/ErenKaymakci/Pyserial-Arduino/edit/main/README.md)
 
 &emsp;Bu repo `pyserial` da yaygın kullanılan metodlar ve örnekler içerir. 
 
