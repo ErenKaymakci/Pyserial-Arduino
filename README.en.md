@@ -42,17 +42,17 @@ Is open or not can be controlled with `isOpen()` method.
   
  
  ## 📤 Sending Data
- `write()` is used commonly for writing data. Metodu kullanırken gönderilecek veriyi byte a çevirmeliyiz. Önemli kısım str ve int değişken tiplerindeki hız farkı. Bu farkı [servo kontrolü](#yavaşla-hızlının-görsel-farkı) kısmında görebilirsiniz.
+ `write()` is used commonly for writing data. Metodu kullanırken gönderilecek veriyi byte a çevirmeliyiz. We should convert to byte what we will send. The important point is speed difference in str and integer variable. This difference can be seen in [servo control part].
  
  ## Some attribute & methods in PySerial  
  
 - `name` returns port name. 
  
-- `open()` port açmayı sağlar.
+- `open()` is used for open a port.
 
-- `close()` port kapamayı sağlar.
- 
-- `inWaiting()` arabellekte bekleyen byte sayısını döndürür. Verinin gelip gelmediğini de böylece anlayabiliriz [bkz.](https://github.com/ErenKaymakci/PyserialArduino/blob/main/get_imu_data.py#L10)
+- `close()` is used for close the port.
+
+-  `inWaiting()` returns how many bytes are being waited in buffer.Besides with this function can be understood whether data came or not.[see also](https://github.com/ErenKaymakci/PyserialArduino/blob/main/get_imu_data.py#L10)
 
 - `reset_input_buffer()` giriş arabelleğini(buffer) temizler. Veri dar boğazını engeller. Pyserial < 3.0 sürümlerde `flushInput()` olarak bulunur.
 
