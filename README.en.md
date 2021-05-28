@@ -8,7 +8,7 @@
 
 ## 📑 Contents
 - [Introduction To Pyserial and Functions](#Introduction-To-Pyserial-and-Functions)
-- [Examples](#-uygulama-örnekleri)
+- [Implementation](#-uygulama-örnekleri)
   * [Controlling led with Python input](#-python-inputu-ile-led-yakma)
   * [Getting IMU sensor data](#-imu-sensör-verilerini-alma)
   * [Controlling Servo motor (Fast/Slow)](#-servo-motor-kontrolü)
@@ -54,52 +54,52 @@ Is open or not can be controlled with `isOpen()` method.
 
 -  `inWaiting()` returns how many bytes are being waited in buffer.Besides with this function can be understood whether data came or not.[see also](https://github.com/ErenKaymakci/PyserialArduino/blob/main/get_imu_data.py#L10)
 
-- `reset_input_buffer()` giriş arabelleğini(buffer) temizler. Veri dar boğazını engeller. Pyserial < 3.0 sürümlerde `flushInput()` olarak bulunur.
-
+- `reset_input_buffer()` flashes input buffer. It provides to avoid bottleneck. Renamed from `flushInput()` after PySerial 3.0.
+ 
 - `reset_output_buffer()` çıkış arabelleğini(buffer) temizler. Veri dar boğazını engeller buffer ı etkin kullanmamızı sağlar. Pyserial < 3.0 sürümlerde `flushOutput()` olarak bulunur.
+clears output buffer. It ensures that we are able to use efficiently buffer. Renamed from `flushOutput()` after PySerial 3.0
 
 
+# 📖 Implementation
 
-# 📖 Uygulama Örnekleri
+## 📌 Controlling led with Python input
 
-## 📌 Python inputu ile led yakma
-
-**🗺️ Arduino şeması:**
+**🗺️ Breadboard view:**
 
 ![led on-off](/img/led_sema.png)
 
-[Ino](/examples/led_on-off/led_on-off.ino) dosyasını yükleyin ve [py](/examples/led_on-off/led_on-off.py) dosyasını çalıştırın.  
+Upload [ino](/examples/led_on-off/led_on-off.ino) file then launch [py](/examples/led_on-off/led_on-off.py) file. 
 
-## 📌 IMU sensör verilerini alma(MPU6050)
+## 📌 Getting IMU sensor data(MPU6050)
 
-Arduino da `calcGyroOffsets()` otomatik imu daki jiroskop üzerinden kalibrasyon yapıyor. Bu yüzden py kodu çalıştırdığınızda bir süre sensörü oynatmayın. 
+`calcGyroOffsets()` is used for doing calibration with imu's gyroscope on Arduino. That is why you mustn't move imu sensor when code has launched. 
 
-**🗺️ Arduino şeması:**
+**🗺️ Breadboard view:**
 
 ![IMU](/img/imu_sema.png)
 
-Yüklemek ve çalıştırmak için [ino](/examples/getting_imu_values/get_imu_data.ino) ve [py](/examples/getting_imu_values/get_imu_data.py) dosyası
+For upload and launch: [ino](/examples/getting_imu_values/get_imu_data.ino) and [py](/examples/getting_imu_values/get_imu_data.py) file
 
 
 
-## 📌 Servo motor kontrolü
+## 📌 Controlling Servo motor (Fast/Slow)
 
-**🗺️ Arduino şeması(Hızlı/yavaş ikisinin şeması aynı):**
+**🗺️ Breadboard view(Hızlı/yavaş ikisinin şeması aynı):**
 
 ![servo](/img/servo_sema.png)
 
-Yüklemek ve çalıştırmak için [ino](/examples/servo_control/servo_control.ino) ve [python](/examples/servo_control/servo_control.py) dosyası
+For upload and launch: [ino](/examples/servo_control/servo_control.ino) and [python](/examples/servo_control/servo_control.py) file
 
 ### Hızlı motor kontrolü
-Arduino şeması yavaşla aynı. [Python](/examples/servo_control-faster/servo_control_faster.py) ve [ino](/examples/servo_control-faster/servo_control_faster.ino) dosyaları
+Breadboard schema is same with slow one. [Python](/examples/servo_control-faster/servo_control_faster.py) and [ino](/examples/servo_control-faster/servo_control_faster.ino) file 
 
-### Yavaşla Hızlının görsel farkı
+### Difference betwween slow and fast
 
 
 ![alt text](/img/normal.gif "Slow")  ![alt text](/img/faster.gif "Faster")
 
 
-# Yararlandığım kaynaklar
+# Sources that I have used
 - [Pyserial dökümantasyonu](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
 - https://www.youtube.com/watch?v=8IUHfKKE0tM
 - https://www.youtube.com/watch?v=zPaJ0MnaJ8E
