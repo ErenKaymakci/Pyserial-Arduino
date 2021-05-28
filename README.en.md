@@ -56,8 +56,7 @@ Is open or not can be controlled with `isOpen()` method.
 
 - `reset_input_buffer()` flashes input buffer. It provides to avoid bottleneck. Renamed from `flushInput()` after PySerial 3.0.
  
-- `reset_output_buffer()` çıkış arabelleğini(buffer) temizler. Veri dar boğazını engeller buffer ı etkin kullanmamızı sağlar. Pyserial < 3.0 sürümlerde `flushOutput()` olarak bulunur.
-clears output buffer. It ensures that we are able to use efficiently buffer. Renamed from `flushOutput()` after PySerial 3.0
+- `reset_output_buffer()` clears output buffer. It ensures that we are able to use buffer efficiently. Renamed from `flushOutput()` after PySerial 3.0
 
 
 # 📖 Implementation
