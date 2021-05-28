@@ -1,4 +1,4 @@
-# Python Arduino Seri Haberleşmesi
+# Python Arduino Serial Communication
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ErenKaymakci/Pyserial-Arduino/blob/main/README.en.md)
 [![tr](https://img.shields.io/badge/lang-tr-green.svg)](https://github.com/ErenKaymakci/Pyserial-Arduino/blob/main/README.md)
 
@@ -8,13 +8,13 @@
 
 ## 📑 Contents
 - [Introduction To Pyserial and Functions](#Introduction-To-Pyserial-and-Functions)
-- [Implementation](#-uygulama-örnekleri)
-  * [Controlling led with Python input](#-python-inputu-ile-led-yakma)
-  * [Getting IMU sensor data](#-imu-sensör-verilerini-alma)
-  * [Controlling Servo motor (Fast/Slow)](#-servo-motor-kontrolü)
+- [Implementation](#-implementation)
+  * [Controlling led with Python input](#-controlling-led-with-python-input)
+  * [Getting IMU sensor data](#-getting-imu-sensor-datampu6050)
+  * [Controlling Servo motor (Fast/Slow)](#-controlling-servo-motor-fastslow)
   
   
-- [Sources that I have used](#yararlandığım-kaynaklar)
+- [Sources that I have used](#sources-that-i-have-used)
 
 
 # Introduction To Pyserial and Functions 
@@ -99,7 +99,7 @@ Breadboard schema is same with slow one. [Python](/examples/servo_control-faster
 
 
 # Sources that I have used
-- [Pyserial dökümantasyonu](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
+- [Pyserial documentation](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
 - https://www.youtube.com/watch?v=8IUHfKKE0tM
 - https://www.youtube.com/watch?v=zPaJ0MnaJ8E
 - https://www.youtube.com/watch?v=bDn2ODJAF2E&list=PLX-kU3Z_Zx-tzqIbOY0ucyGk5nnhTqO69
