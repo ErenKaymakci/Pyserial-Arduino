@@ -50,7 +50,7 @@ Ardiuno nuzu bağladığınız port ismini [buradan](/img/port_name.png) öğren
 
 - `close()` port kapamayı sağlar.
  
-- `inWaiting()` arabellekte bekleyen byte sayısını döndürür. Verinin gelip gelmediğini de böylece anlayabiliriz [bkz.](https://github.com/ErenKaymakci/PyserialArduino/blob/main/get_imu_data.py#L10)
+- `inWaiting()` arabellekte bekleyen byte sayısını döndürür. Verinin gelip gelmediğini de böylece anlayabiliriz [bkz.](https://github.com/ErenKaymakci/Pyserial-Arduino/blob/002c566eee71164368898c6a46be18dde569cb69/examples/getting_imu_values/get_imu_data.py#L10)
 
 - `reset_input_buffer()` giriş arabelleğini(buffer) temizler. Veri dar boğazını engeller. Pyserial < 3.0 sürümlerde `flushInput()` olarak bulunur.
 
