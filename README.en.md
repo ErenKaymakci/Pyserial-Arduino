@@ -52,7 +52,7 @@ Is open or not can be controlled with `isOpen()` method.
 
 - `close()` is used for close the port.
 
--  `inWaiting()` returns how many bytes are being waited in buffer.Besides with this function can be understood whether data came or not.[see also](https://github.com/ErenKaymakci/PyserialArduino/blob/main/get_imu_data.py#L10)
+-  `inWaiting()` returns how many bytes are being waited in buffer.Besides with this function can be understood whether data came or not.[see also](https://github.com/ErenKaymakci/Pyserial-Arduino/blob/002c566eee71164368898c6a46be18dde569cb69/examples/getting_imu_values/get_imu_data.py#L10)
 
 - `reset_input_buffer()` flashes input buffer. It provides to avoid bottleneck. Renamed from `flushInput()` after PySerial 3.0.
  
