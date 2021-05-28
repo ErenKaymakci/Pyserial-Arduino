@@ -35,10 +35,10 @@ Is open or not can be controlled with `isOpen()` method.
  ## 📥 Reading Data
  We can read data some methods. I'll mention `read()` , `readline()`.
  
-`read()` method provide to read data piece by piece. It takes `size` parameter which is equal 1 in default. You can set how many byte do you read with change size parameter. For implementation [this](/getting_data/read.ino) file may be uploaded to arduino then [this](/getting_data/read.py) file can be run in Python.
+`read()` method ensures to read data piece by piece. It takes `size` parameter which is equal 1 in default. You can set how many byte do you read with change size parameter. For implementation [this](/getting_data/read.ino) file may be uploaded to arduino then [this](/getting_data/read.py) file can be run in Python.
 
  
-`readline()` method provide to get data line by line. For implementation [this](/getting_data/readline.ino) file may be uploaded to arduino then [this](/getting_data/readline.py) file can be run in Python.
+`readline()` method ensures to get data line by line. For implementation [this](/getting_data/readline.ino) file may be uploaded to arduino then [this](/getting_data/readline.py) file can be run in Python.
   
  
  ## 📤 Sending Data
