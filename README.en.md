@@ -29,7 +29,7 @@ You can learn which is your connection port in [here](/img/port_name.png). `baud
 
 Is open or not can be controlled with `isOpen()` method. 
 
- [Port open and close command](#kütüphanedeki-bazı-özellik-ve-metodlar)
+ [Port open and close command](#some-attribute--methods-in-pyserial)
 
  
  ## 📥 Reading Data
@@ -42,7 +42,7 @@ Is open or not can be controlled with `isOpen()` method.
   
  
  ## 📤 Sending Data
- `write()` is used commonly for writing data. Metodu kullanırken gönderilecek veriyi byte a çevirmeliyiz. We should convert to byte what we will send. The important point is speed difference in str and integer variable. This difference can be seen in [servo control part].
+ `write()` is used commonly for writing data. We should convert to byte what we will send. The important point is speed difference in str and integer variable. This difference can be seen in [servo control part](#difference-betwween-slow-and-fast).
  
  ## Some attribute & methods in PySerial  
  
@@ -83,13 +83,13 @@ For upload and launch: [ino](/examples/getting_imu_values/get_imu_data.ino) and 
 
 ## 📌 Controlling Servo motor (Fast/Slow)
 
-**🗺️ Breadboard view(Hızlı/yavaş ikisinin şeması aynı):**
+**🗺️ Breadboard view(both is same):**
 
 ![servo](/img/servo_sema.png)
 
 For upload and launch: [ino](/examples/servo_control/servo_control.ino) and [python](/examples/servo_control/servo_control.py) file
 
-### Hızlı motor kontrolü
+### Fast One
 Breadboard schema is same with slow one. [Python](/examples/servo_control-faster/servo_control_faster.py) and [ino](/examples/servo_control-faster/servo_control_faster.ino) file 
 
 ### Difference betwween slow and fast
