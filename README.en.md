@@ -83,7 +83,7 @@ For upload and launch: [ino](/examples/getting_imu_values/get_imu_data.ino) and 
 
 ## 📌 Controlling Servo motor (Fast/Slow)
 
-**🗺️ Breadboard view(both is same):**
+**🗺️ Breadboard view(both are same):**
 
 ![servo](/img/servo_sema.png)
 
